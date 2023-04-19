@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<meta charset="utf-8">
+
+	<meta name="keywords" content="Doraemon, cartoon, TV show, childhood">
+
+	<meta name="description" content="Welcome to Doraemon's World! I'm going to introduce to my audience the famous Japanese cartoon Doraemon. It is my all time favorite TV show throughout my childhood. #MS-903 or simply Doraemon is the titular protagonist of all Doraemon media (including, but not limited to the original manga, anime, video games, and movies). Doraemon is often recognized by his signature blue color. That’s why my design’s primary color is royal blue. In this trivia page, I’ll lead my audience through six of the most interest trivias of Doraemon TV show. The users can reveal the trivias through hovering the pictures.">
+	<title>Doraemon Trivias</title>
+
+	<link rel="stylesheet" href="main.css">
+	<link href="https://fonts.googleapis.com/css2?family=M+PLUS+2&display=swap" rel="stylesheet">
+<style>
+	@font-face{
+		font-family: "dora";
+		src: url("font/DORAEMON.ttf");
+	}
+
+
+	.row{
+		display: flex;
+		margin-left: 50px;
+		margin-right: auto;
+		margin-top: 50px;
+	}
+
+	.trileft{
+		width: 100%;
+		height: 370px;
+		overflow: hidden;
+		display: block;
+		position: relative;
+		margin-left: 50px;
+
+	}
+	img{
+		width: 100%;
+		height: 100%;
+	}
+	.t1{
+		position: absolute;
+
+		top: 50%;
+
+		left: 15%;
+		max-width: 70%;
+		text-align: center;
+		display: none;
+
+	}
+	.triright{
+		width: 100%;
+		height: 370px;
+		overflow: hidden;
+		display: block;
+		position: relative;
+		margin-left: 50px;
+
+	}
+	.trimid{
+		width: 100%;
+		height: 370px;
+		overflow: hidden;
+		display: block;
+		position: relative;
+		margin-left: 50px;
+
+	}
+	#main{
+		width: 1350px;
+		margin-left: 0px;
+		margin-right: 0px;
+		margin-top: 30px;
+		padding: 0px;
+		margin-bottom: 50px;
+	}
+	.trileft:hover img{
+		transform: scale(1.3);
+		opacity: 0.3;
+	}
+	.trileft:hover .t1{
+		display: block;
+	}
+
+	.trimid:hover img{
+		transform: scale(1.3);
+		opacity: 0.3;
+	}
+	.trimid:hover .t1{
+		display: block;
+	}
+	.triright:hover img{
+		transform: scale(1.3);
+		opacity: 0.3;
+	}
+	.triright:hover .t1{
+		display: block;
+	}
+	#header{
+		background-image: url('img/back4.jpg');
+	}
+	p{
+		font-family: "dora", serif;
+		font-size: 20px;
+	}
+
+
+</style>
+
+</head>
+<body>
+	
+	<div id="header">
+		<h1>Trivias</h1>
+	</div>
+		<div id="navbar">
+		<div id="section1">
+			<img src="img/icon1.png" alt="icon1">
+			<a href="final.html" id="active">Home</a>
+		</div>
+		<div id="section2">
+			<img src="img/icon2.jpeg" alt="icon2">
+			<a href="character.html">Characters</a>
+		</div>
+		<div id="section3">
+			<img src="img/icon3.png" alt="icon3">
+			<a href="trivia.html">Trivias</a>
+		</div>
+		<div id="section4">
+			<img src="img/icon4.png" alt="icon4">
+			<a href="movie.html">Movies</a> 
+		</div>
+	</div>
+
+	<div id="main">
+		<div class="row">
+		<div class="trileft">
+			<img src="img/tri1.png" alt="trivia1">
+			<div class="t1">
+				<p>Doraemon has a sister who is stronger than him. Dorami is Doraemon’s younger sister. She is two years younger than him.</p></div>
+			
+		</div>
+		<div class="trimid">
+			<img src="img/tri2.png" alt="trivia1">
+			<div class="trivia"># 2</div>
+			<div class="t1"><p>Doraemon is 129.3cm tall. He weighs 129.3kg. His circumference is 129.3cm. He can run 129.3km/h when scared. He can jump 129.3cm too.</p></div>
+		</div>
+		<div class="triright">
+			<img src="img/tri3.png" alt="trivia1">
+			<div class="trivia"># 3</div>
+			<div class="t1"><p>Doraemon was chosen as Special ambassador for Japan’s 2020 Tokyo’s Olympic bid.</p></div>
+		</div>
+		</div>
+		<div class="row">
+		<div class="trileft">
+			<img src="img/tri4.png" alt="trivia1">
+			<div class="trivia"># 4</div>
+			<div class="t1"><p>The name Doraemon came from combining two words – “dora” for “stray” (“dora neko” which means stray cat) and “emon” for “male”.</p></div>
+		</div>
+		<div class="trimid">
+			<img src="img/tri5.png" alt="trivia1">
+			<div class="trivia"># 5</div>
+			<div class="t1"><p>Like Dorami, his sister, Doraemon was yellow. He turned blue after sobbing because his ears were removed after a mice bit them.</p></div>
+		</div>
+		<div class="triright">
+			<img src="img/tri6.png" alt="trivia1">
+			<div class="trivia"># 6</div>
+			<div class="t1"><p>Doraemon is a factory-rejected toy. He was sent by Nobita’s great great grandson, Sewashi, to protect Nobita.</p></div>
+		</div>
+	</div>
+
+	</div>
+	<br>
+	<br>
+		<div id="footer">
+		ITP104 Final Project By Jasper Sun 
+		</div><!--#footer-->
+
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/gsap.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.8.0/ScrollTrigger.min.js"></script>
+<script>
+	let tl = gsap.timeline({
+		scrolltrigger:{
+			start: "center"
+		}
+	});
+	tl.from("h1",{y: 250, opacity:0.3, duration: 5})
+</script>
+</body>
+</html>
